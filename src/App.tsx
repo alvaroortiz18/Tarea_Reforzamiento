@@ -1,15 +1,10 @@
-import { BasicFunctions } from "./typescript/BasicFunctions";
-// import { ObjectLiterals } from "./typescript/ObjectLiterals";
-// import { BasicTypes } from "./typescript/BasicTypes";
+import { StatusToggle } from "./components/StatusToggle";
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-svh">
+    <div className="flex justify-center items-center h-svh flex-col gap-5">
       <h1 className="text-4xl mb-5">React + TS</h1>
-
-      {/* <BasicTypes /> */}
-      {/* <ObjectLiterals /> */}
-      {<BasicFunctions />}
+      <StatusToggle />
     </div>
   );
 }
